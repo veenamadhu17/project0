@@ -1,0 +1,44 @@
+$font-stack: sans-serif;
+$primary-color: #460075;
+$list-font: 25px;
+
+body{
+  margin: 40px;
+  font-family: $font-stack;
+  padding: 20px;
+  padding-top: 0px;
+}
+
+  nav{
+    ul {
+    padding: 0px;
+    font-size: $list-font;
+  }
+
+  li {
+    display: flow-root;
+  }
+}
+
+h1 {
+  color: $primary-color;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  color: $primary-color;
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#start {
+  font-size: $list-font;
+}
+
+#hyperlinks {
+  font-size: 14px;
+}
