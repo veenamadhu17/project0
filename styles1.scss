@@ -1,9 +1,33 @@
-//_base.scss
-$font-stack: Helvetica, sans-serif;
+$font-stack: sans-serif;
 $primary-color: #460075;
 
+body {
+  margin: 40px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+%linked-pages {
+  color: #010863;
+  font-size: 14px;
+}
+
 h1 {
-font-family: Helvetica, sans-serif;
-font-size: 200;
-color:$primary-color;
+  font-family: $font-stack;
+  color: $primary-color;
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  font-family: $font-stack;
+  font-size: 20px;
+}
+
+#hyperlinks {
+  @extend %linked-pages;
+}
+
+.name {
+  font-weight: bold;
 }
